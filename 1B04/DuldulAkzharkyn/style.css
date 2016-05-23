@@ -1,0 +1,443 @@
+
+body
+{
+background: url(back2.jpg);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px auto auto auto;
+color:#000000;
+}
+p{width:950px;}
+.logo{
+position: relative;
+top:5px;
+left:150px;
+}
+.logo1{
+position:absolute;
+left:530px;
+top:43px;
+}
+.logo2{
+position:absolute;
+left:530px;
+top:70px;
+}
+a{
+color:#f8981d;
+}
+
+/*.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }*/
+
+
+
+/*-----------------------------menu-------------------*/
+#menu_search {
+	clear: both;
+	width: 83%;
+	height:20px;
+}
+
+#menu {
+	left:150px;
+	position:relative;
+	height: 50px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#menu ul li {
+	display: block;
+}
+
+#menu ul li a {
+background-image:url(img/templatemo_menu_bg.jpg);
+	float: left;
+	display: block;
+	padding: 0 21px;
+	height: 35px;
+	padding-top: 18px;
+	text-align: center;
+	font-size: 11.3px;
+	text-align: center;
+	text-decoration: none;
+	color:   #333333 ;	
+	outline: none;
+}
+
+#menu li a:hover, #templatemo_menu li .current {
+	color: #ffffff;
+	background: url(img/templatemo_menu_hover.jpg) repeat-x;	
+}
+
+/*menu bitti endi регистр*/
+
+.contact_form{
+width:880px;
+height:500px;
+float:left;
+left:140px;
+top:160px;
+padding:25px;
+margin:20px 0 0 15px;
+border:2px #FF0000 dashed;
+position:absolute;
+}
+.form_row{
+margin-left:150px;
+width:335px;
+_width:355px;
+clear:both;
+padding:10px 0 10px 0;
+_padding:5px 0 5px 0;
+color:#a53d17;
+}
+label.contact{
+width:75px;
+float:left;
+font-size:12px;
+text-align:right;
+padding:4px 5px 0 0;
+color: #333333;
+}
+input.contact_input{
+width:253px;
+height:18px;
+background-color:#fff;
+color:#999999;
+border:1px #DFDFDF solid;
+float:left;
+}
+textarea.contact_textarea{
+width:253px;
+height:120px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #999999;
+background-color:#fff;
+border:1px #DFDFDF solid;
+float:left;
+margin-left:80px;
+}
+a.logout{
+text-decoration:none;
+}
+input.register{
+margin: 5px;
+width:150px;
+height:25px;
+border:none;
+cursor:pointer;
+text-align:center;
+float:right;
+color:#FFFFFF;
+background:url(images/redbut.png) no-repeat center;
+}
+
+.form_subtitle{
+position:absolute;
+top:-11px;
+left:7px;
+width:auto;
+height:32px;
+background-color: #CC0000;
+text-align:center;
+padding:0 7px 0 7px;
+color: #FFFFFF;
+font-size:20px;
+line-height:20px;
+}
+
+.welcome{
+top:10px;
+position:absolute;
+float:left;
+left:550px;}
+	
+	/*registr bitti*/
+
+/*register bitti endi search*/
+
+
+
+#search_section  {
+height: 35px;
+float: left;
+padding:10px;
+mappin:50px;
+background:url(img/templatemo_menu_bg.jpg);
+	
+}
+
+#searchfield {
+	height: 15px;
+	display:inline;
+	width: 150px;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: normal;
+	background: #FF0000;
+	border: 1px solid #ffffff;	
+}
+
+
+.button
+{width:3px; height:20px; hspace:5px; align:middle; 
+    border:none;
+    background:url(img/lupa.gif);
+   
+	
+    line-height:20px;
+    padding:0px 10px;
+	margin: 0 0 0 10px;
+	cursor: pointer;
+	font-size: 12px;
+	white-space: pre; 
+	border: none;
+}
+
+
+
+#korzina{
+width:10px;
+height:20px;
+float:left;
+top:100px;
+}
+
+
+.clear {
+	clear:both
+}
+/*slideshow*/
+#gallery {
+top:150px;
+left:150px;
+position:absolute;
+height:500px;
+}
+#gallery a {		
+position:absolute;
+}
+	
+#gallery a img {
+border:none;
+}
+	
+#gallery a.show {
+z-index:1
+}
+
+#gallery .caption {
+z-index:2; 
+background-color:#000; 
+color:#ffffff; 
+height:100px; 
+width:692px; 
+position:absolute;
+bottom:0;
+}
+
+#gallery .caption {
+padding:5px
+}
+	
+#gallery .caption h3 {
+margin:0;
+padding:0;
+color:#1DCCEF;
+}
+	/*slideshow bitti*/
+
+/*footer*/
+.thumb{
+left:150px;
+float:left;
+border: 0px;; /* Рамка вокруг фотографии */
+padding: 2px; /* Расстояние от картинки до рамки */
+background: #FFFFFF; /* Цвет фона */
+position:relative;
+top: 485px;
+}
+   
+.thumb2{
+left:150px;
+float:left;
+border: 0px;; /* Рамка вокруг фотографии */
+padding: 2px; /* Расстояние от картинки до рамки */
+background: #FFFFFF; /* Цвет фона */
+position:relative;
+top: 485px;
+}
+   
+#sozder{
+left:150px;
+top:1000px;
+position:absolute;
+}
+   /*footer bitti*/
+
+/*menu slideshow*/
+.slideshowmenu{
+position:absolute;
+left:242px;
+top:0px;
+}
+.thumbmenu{
+right:245px;
+float:right;
+border: 0px; /* Рамка вокруг фотографии */
+padding: 13px; /* Расстояние от картинки до рамки */
+background: #FFFFFF; /* Цвет фона */
+position:relative;
+top: 500px;
+}
+   /*menu slideshow bitti*/
+   /*menu turatyndary*/
+   
+   .leftpic{
+   position:absolute;
+   left:853px;
+   top:150px;
+   }
+   
+   li.jeno{
+	margin-right:5px;   
+   }
+   
+   .jenm{
+   width: 231px;
+   border: solid #FF0000;
+   height: 450px;
+   top:150px;
+   left:150px;
+   position:absolute;
+   font-family:Arial, Helvetica, sans-serif;
+   color:#000000;
+   }
+   
+   .jenmain{
+   float:left;
+   left: 238px;
+   top: 0px;
+   position:absolute;
+   }
+   
+    .jenodej{
+	left:390px;
+	float:left;
+    border: 0px;; /* Рамка вокруг фотографии */
+    padding: 2px; /* Расстояние от картинки до рамки */
+    background: #FFFFFF; /* Цвет фона */
+	position:relative;
+	top: 510px;
+   }
+   
+   .sale{
+	position:absolute;
+	float:left;
+	left:390px;
+	top:150px;
+	}
+  
+   /*bitti*/
+ 
+   
+	
+	
+	
+	
+img1{
+width:200px;
+height:250px;
+}
+
+   .briuki1{
+   z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 150px;
+   left: 400px;
+   }
+    .briuki2{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 300px;
+   top: 150px;
+   left: 630px;
+   float:left;
+   }
+   
+   .bluz1{
+   z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 160px;
+   left: 410px;
+   }
+   
+    .bluz2{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 160px;
+   left: 645px;
+   }
+   
+    .bluz3{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 160px;
+   left: 875px;
+   }
+ 
+    .bluz4{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 560px;
+   left: 410px;
+   }
+   
+    .bluz5{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 560px;
+   left: 645px;
+   }
+   
+    .bluz6{
+	z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 560px;
+   left: 875px;
+   }
+   
+   .wlyapa2{
+   z-index:-1;
+   position:absolute;
+   width: 230px;
+   height: 250px;
+   top: 160px;
+   left: 755px;
+   }
+   
+   
+
